@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Login form</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-theme.css">
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/bootstrap-theme.css">
+    <script src="static/js/bootstrap.js"></script>
+    <script src="static/js/banking.js"></script>
+    <link rel="shortcut icon" href="static/img/favicon.png">
 </head>
 <body>
 
@@ -13,15 +15,15 @@
     <div class="row">
 
         <div class="col-md-offset-3 col-md-6">
-            <form class="form-horizontal">
+            <form action="account.html" class="form-horizontal">
                 <img src="static/img/bank_logo.jpg">
                 <span class="heading">Login to your account</span>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+                    <input name="login" type="email" class="form-control" id="inputEmail" placeholder="E-mail">
                     <i class="fa fa-user"></i>
                 </div>
                 <div class="form-group help">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <input name="password" type="password" class="form-control" id="inputPassword" placeholder="Password">
                     <i class="fa fa-lock"></i>
                     <a href="#" class="fa fa-question-circle"></a>
                 </div>
@@ -31,7 +33,8 @@
                         <label for="checkbox1"></label>
                     </div>
                     <span class="text">Remember me</span>
-                    <button type="submit" class="btn btn-default">Sign in</button>
+                    <input value="Sign in" type="submit" class="btn btn-default"
+                           onclick="return submit_ (this.form.login.value, this.form.password.value)">
                 </div>
             </form>
         </div>

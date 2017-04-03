@@ -4591,6 +4591,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse {
   background-color: #222;
   border-color: #080808;
+  padding: 10px 0;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -4979,6 +4980,7 @@ a.badge:focus {
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 6px;
+  margin: 50px auto;
 }
 .jumbotron .container {
   max-width: 100%;
@@ -6758,7 +6760,7 @@ button.close {
 
 /* Demo Background */
 body{
-  background:url(../../../../static/img/banking.jpg);
+  background:url( ../../static/img/banking.jpg);
   background-size: 100%;
   padding: 100px 0;
 }

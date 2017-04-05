@@ -6,66 +6,69 @@
     <link rel="stylesheet" href="static/css/bootstrap.css">
     <link rel="stylesheet" href="static/css/bootstrap-theme.css">
     <link rel="shortcut icon" href="static/img/favicon.png">
+    <link rel="stylesheet" href="static/css/stile.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
-        <div class="col-lg-4 col-md-4 col-sm-4">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="static/img/user.jpg" class="img-rounded">
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="static/img/user.jpg" class="img-rounded">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <h3><span class="label label-info">Jan Kowalski</span></h3>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img style="margin-top: 10px;" src="static/img/logo.svg" class="img-rounded" height="90" width="90">
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <button type="button" class="btn btn-default btn-md">
-                                <span class="glyphicon glyphicon-envelope"></span>
-                                <span class="badge">42</span>
-                            </button>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img style="margin-top: 10px;" src="static/img/user.jpg" class="img-rounded">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h3><p style="color:#FFFFFF;">Jan Kowalski</p></h3>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <button type="button" class="btn btn-default btn-md">
-                                <span class="glyphicon glyphicon-cog"></span>
-                            </button>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+                                <button type="button" class="btn btn-default btn-md">
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                    <span class="badge">42</span>
+                                </button>
+                            </div>
+                            <div class="col-lg-7 col-md-6 col-sm-6">
+                                <button type="button" class="btn btn-default btn-md">
+                                    <span class="glyphicon glyphicon-cog"></span>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home btn-lg"></span><br>HOME</a>
-                    </li>
-                    <li><a href="#"><span class="glyphicon glyphicon-stats btn-lg"></span><br>ANALYSE</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-calendar btn-lg"></span><br>PLAN</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-euro btn-lg"></span><br>EARN</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4" align="right">
-            <button type="button" class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-search"></span>
-            </button>
-            <button type="button" class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-off"></span>
-            </button>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><span class="glyphicon glyphicon-home btn-lg-menu"></span><br>HOME</a>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-stats btn-lg-menu"></span><br>ANALYSE</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-calendar btn-lg-menu"></span><br>PLAN</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-euro btn-lg-menu"></span><br>EARN</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4" align="right">
+                <button style="margin-top: 25px;" type="button" class="btn btn-default btn-lg">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+                <button style="margin-top: 25px;" type="button" class="btn btn-default btn-lg">
+                    <span class="glyphicon glyphicon-off"></span>
+                </button>
+            </div>
         </div>
     </div><!-- /.container-fluid -->
 </nav>
@@ -118,7 +121,7 @@
                 <table class="table">
                     <tr>
                         <td>
-                            <button type="button" id="wal" class="btn btn-default btn-lg btn-block active">
+                            <button type="button" class="button-1 btn btn-default btn-lg btn-block active">
                                 <div class="col-lg-3">
                                     <span class="glyphicon glyphicon-folder-close btn-lg"></span>
                                 </div>
@@ -128,7 +131,7 @@
                             </button>
                         </td>
                         <td>
-                            <button type="button" id="dep" class="btn btn-default btn-lg btn-block">
+                            <button type="button" class="button-2 btn btn-default btn-lg btn-block">
                                 <div class="col-lg-3">
                                     <span class="glyphicon glyphicon-stats btn-lg"></span>
                                 </div>
@@ -140,7 +143,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="acc" class="btn btn-default btn-lg btn-block">
+                            <button type="button" id="acc" class="button-3 btn btn-default btn-lg btn-block">
                                 <div class="col-lg-3">
                                     <span class="glyphicon glyphicon-euro btn-lg"></span>
                                 </div>
@@ -150,7 +153,7 @@
                             </button>
                         </td>
                         <td>
-                            <button type="button" id="fun" class="btn btn-default btn-lg btn-block">
+                            <button type="button" id="fun" class="button-4 btn btn-default btn-lg btn-block">
                                 <div class="col-lg-3">
                                     <span class="glyphicon glyphicon-signal btn-lg"></span>
                                 </div>
@@ -162,7 +165,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="bl" class="btn btn-default btn-lg btn-block">
+                            <button type="button" id="bl" class="button-5 btn btn-default btn-lg btn-block">
                                 <div class="col-lg-3">
                                     <span class="glyphicon glyphicon-hand-right btn-lg"></span>
                                 </div>
@@ -173,13 +176,79 @@
                         </td>
                     </tr>
                 </table>
-
-
             </div>
             <div class="col-lg-6">
-                <div class="panel panel-default" id="history_wallets">
+                <div class="panel panel-default block-1">
                     <div class="panel-body">
                         <table class="table table_scroll">
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Gas stattion Shell, Warsaw, Woloska street...
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -100,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Gas stattion Shell, Warsaw, Woloska street...
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -100,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Gas stattion Shell, Warsaw, Woloska street...
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -100,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Gas stattion Shell, Warsaw, Woloska street...
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -100,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
                             <tr>
                                 <td>
                                     <div class="row">
@@ -200,7 +269,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="panel panel-default" id="history_deposits">
+                <div class="panel panel-default block-2">
                     <div class="panel-body">
                         <table class="table table_scroll">
                             <tr>
@@ -210,12 +279,80 @@
                                             29.06
                                         </div>
                                         <div class="col-lg-8">
-                                            Deposits
-                                            <br>Gas
+                                            Placement of funds on deposit
+                                            <br> 6 Month
                                             <span class="glyphicon glyphicon-chevron-down"></span>
                                         </div>
                                         <div class="col-lg-2">
-                                            -100,00 PLN
+                                            1000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            28.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Placement of funds on deposit
+                                            <br> 6 Month
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            2000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            15.05
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Placement of funds on deposit
+                                            <br> 6 Month
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            10000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            22.04
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Placement of funds on deposit
+                                            <br> 6 Month
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            1000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            01.01
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Placement of funds on deposit
+                                            <br> 6 Month
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            5000,00 PLN
                                         </div>
                                     </div>
                                 </td>
@@ -223,7 +360,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="panel panel-default" id="history_accounts">
+                <div class="panel panel-default block-3">
                     <div class="panel-body">
                         <table class="table table_scroll">
                             <tr>
@@ -238,7 +375,75 @@
                                             <span class="glyphicon glyphicon-chevron-down"></span>
                                         </div>
                                         <div class="col-lg-2">
-                                            -100,00 PLN
+                                            2000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Accounts
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            2000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Accounts
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            2000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Accounts
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            2000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Accounts
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            2000,00 PLN
                                         </div>
                                     </div>
                                 </td>
@@ -246,7 +451,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="panel panel-default" id="history_funds">
+                <div class="panel panel-default block-4">
                     <div class="panel-body">
                         <table class="table table_scroll">
                             <tr>
@@ -261,7 +466,75 @@
                                             <span class="glyphicon glyphicon-chevron-down"></span>
                                         </div>
                                         <div class="col-lg-2">
-                                            -100,00 PLN
+                                            1500,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Funds
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            1500,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Funds
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            1500,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Funds
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            1500,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Funds
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            1500,00 PLN
                                         </div>
                                     </div>
                                 </td>
@@ -269,7 +542,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="panel panel-default" id="history_bank_loans">
+                <div class="panel panel-default block-5">
                     <div class="panel-body">
                         <table class="table table_scroll">
                             <tr>
@@ -284,7 +557,92 @@
                                             <span class="glyphicon glyphicon-chevron-down"></span>
                                         </div>
                                         <div class="col-lg-2">
-                                            -100,00 PLN
+                                            -10000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Bank loans
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -10000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Bank loans
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -10000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Bank loans
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -10000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Bank loans
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -10000,00 PLN
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            29.06
+                                        </div>
+                                        <div class="col-lg-8">
+                                            Bank loans
+                                            <br>Gas
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            -10000,00 PLN
                                         </div>
                                     </div>
                                 </td>

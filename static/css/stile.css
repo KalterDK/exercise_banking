@@ -1,0 +1,37 @@
+.fig {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.table_scroll {
+    display: block;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.block-2 {
+    display: none;
+}
+
+.block-3 {
+    display: none;
+}
+
+.block-4 {
+    display: none;
+}
+
+.block-5 {
+    display: none;
+}
+
+.btn-lg-menu {
+    padding: 10px 10px;
+    font-size: 25px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.menu-pad {
+  padding: 10px 0;
+}

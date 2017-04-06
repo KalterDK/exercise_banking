@@ -32,6 +32,25 @@
     line-height: 1.3333333;
     border-radius: 6px;
 }
+
 .menu-pad {
-  padding: 10px 0;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .btn-lg-menu {
+        padding: 1px 1px;
+        font-size: 20px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-lg {
+        padding: 1px 1px;
+        font-size: 10px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+    }
 }
